@@ -1,0 +1,27 @@
+{
+  "name": "ecom_server_gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Project-Mania-SLIIT/ecom_server_gateway.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Project-Mania-SLIIT/ecom_server_gateway/issues"
+  },
+  "homepage": "https://github.com/Project-Mania-SLIIT/ecom_server_gateway#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-http-proxy": "^1.6.3",
+    "nodemon": "^2.0.22"
+  }
+}
